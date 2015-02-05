@@ -1,0 +1,73 @@
+body{
+width:300px;
+background:url(bg.png);
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+.img{
+	margin-top:-8px;
+	margin-left: -10px;
+	height:80px;
+	width:80px;
+	border-radius:10px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 30px;
+	cursor: pointer;
+	-webkit-transition: all .3s ease-in-out;
+	    -moz-transition: all .3s ease-in-out;
+	    transition: all .3s ease-in-out;
+	    box-shadow: 1px 2px 5px black;
+}
+
+.img:hover{
+	opacity: 0.1;
+}
+
+
+#myConsole
+{
+	color:#22A7F0;
+	font-size:9px;
+	clear:both;
+}
+
+.option{
+	box-shadow: 1px 2px 5px black;
+	background-color: white;
+	width:50px;
+	height:20px;
+	border-radius:5px;
+	font-size:12px;
+	text-align:center;
+	display: inline-block;
+	margin-right:10px;
+	margin-top:30px;
+	cursor: pointer;
+	padding-top:4px;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.option:hover{
+	background-color: rgba(0,0,0,0.7);
+	color:white;
+
+
+}
+.container{
+	margin-top: -10px;
+	height: auto;
+	width: auto;
+	float:right;
+}
+
+.footer{
+	 float:right;
+	 color:#BFBFBF;
+	 font-style: italic;
+}
