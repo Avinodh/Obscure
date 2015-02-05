@@ -5,7 +5,7 @@ This was made in April 2014 at LA Hacks , UCLA's hackathon.
 
 This extension lets the user specify key words, that are stored in the browser's local storage.
 If the user visits a website that contains any of the specified keywords in its URL, the website URL is automatically and instantly cleared from the user's browser history. 
-
+_____________________________________________________________________________________
 background.js - This script runs in the background while the user browses the internet. Everytime a new website is loaded, the script checks if any of the keywords are present in the URL, and if so, it deletes the website URL from the browser's history
 
 feed.js - This script controls the viewing, editing and deletion of keywords from the local storage. 
