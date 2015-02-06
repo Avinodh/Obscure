@@ -1,5 +1,7 @@
 # Obscure
 
+IMPORTANT: When prompted for a password while using the extension (View, Add, Clear), please enter "lahacks" as the password. This is a static password. In a production version, please implemenent a dynamic password storage system that is secure.
+
 Obscure is a Google Chrome extension that offers a customizable Private Browsing experience.
 This was made in April 2014 at LA Hacks , UCLA's hackathon. 
 
